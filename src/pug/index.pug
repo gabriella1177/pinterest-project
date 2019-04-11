@@ -7,22 +7,6 @@ html(lang="en")
     script(src="../js/main.js")
 
   body(class="m-2")
-    //- nav.navbar.navbar-expand-md.bg-dark.navbar-dark
-    //-   // Brand
-    //-   a.navbar-brand(href='#') Navbar
-    //-   // Toggler/collapsibe Button
-    //-   button.navbar-toggler(type='button', data-toggle='collapse', data-target='#collapsibleNavbar')
-    //-     span.navbar-toggler-icon
-    //-   // Navbar links
-      #collapsibleNavbar.collapse.navbar-collapse
-    //-     ul.navbar-nav
-    //-       li.nav-item
-    //-         a.nav-link(href='#') Link
-    //-       li.nav-item
-    //-         a.nav-link(href='#') Link
-    //-       li.nav-item
-    //-         a.nav-link(href='#') Link
-
 
     ul.nav.navbar-expand-md.nav-fill.fixed-top.navbar-light.bg-light.float-right.text-right
         button.navbar-toggler(type='button', data-toggle='collapse', data-target='#collapsibleNavbar')
@@ -56,20 +40,53 @@ html(lang="en")
             
     
     section(id="gallery")
-            div(class="row")
-                div(class="col-lg-4")
-                    div(class="card")
-                        img(class="card-img-top" src="../imgs/bedroom.jpg")
-                        div(class="card-body")
-                            h5(class="card-title") Dream Bedroom Decor
-                div(class="col-lg-4")
-                    div(class="card")
-                        img(class="card-img-top" src="../imgs/budget.jpg")
-                        div(class="card-body")
-                            h5(class="card-title") Budget Catergories
-                div(class="col-lg-4")
-                    div(class="card")
-                        img(class="card-img-top" src="../imgs/capsule-wardrobe.jpg")
-                        div(class="card-body")
-                            h5(class="card-title") 7-Day Capsule Wardrobe
-                            
+        div(class="row")
+            div(class="column-1 col-lg-4")
+                div(class="card rounded m-3")
+                    img(class="card-img-top" src="../imgs/bedroom.jpg")
+                    div(class="card-body")
+                        h5(class="card-title") Dream Bedroom Decor
+            
+                div(class="card rounded")
+                    img(class="card-img-top" src="../imgs/budget.jpg")
+                    div(class="card-body")
+                        h5(class="card-title") Budget Catergories
+            
+                div(class="card rounded")
+                    img(class="card-img-top" src="../imgs/does-this.jpg")
+                    div(class="card-body")
+                        h5(class="card-title") Get in the Habit
+            div(class="column-2 col-lg-4")
+                div(class="card rounded")
+                    img(class="card-img-top" src="../imgs/kitchen.jpg")
+                    div(class="card-body")
+                        h5(class="card-title") Dreamy Kitchen Decor
+            
+                div(class="card rounded")
+                    img(class="card-img-top" src="../imgs/relax.jpg")
+                    div(class="card-body")
+                        h5(class="card-title") Relax, you will be okay
+            
+                div(class="card rounded")
+                    img(class="card-img-top" src="../imgs/capsule-wardrobe.jpg")
+                    div(class="card-body")
+                        h5(class="card-title") 7-Day Capsule Wardrobe
+            div(class="column-3 col-lg-4")
+                div(class="card rounded")
+                    img(class="card-img-top" src="../imgs/boho-kitchen.jpg")
+                    div(class="card-body")
+                        h5(class="card-title") Boho Rustic Kitchen Decor
+            
+                div(class="card")
+                    img(class="card-img-top" src="../imgs/same-place.jpg")
+                    div(class="card-body")
+                        h5(class="card-title") The goal is not to be in the same place
+            
+                div(class="card rounded")
+                    img(class="card-img-top" src="../imgs/self-care.jpg")
+                    div(class="card-body")
+                        h5(class="card-title") Self-Care Menu
+                div(class="card rounded m-3")
+                    img(class="card-img-top" src="../imgs/desk.jpg")
+                    div(class="card-body")
+                        h5(class="card-title") Desk Under the Stairs      

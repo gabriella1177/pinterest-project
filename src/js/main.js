@@ -1,1 +1,1 @@
-console.log("We're cookin now!")
+console.log("It works!")

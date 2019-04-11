@@ -7,32 +7,52 @@ html(lang="en")
     script(src="../js/main.js")
 
   body(class="m-2")
-    ul.nav.nav-fill.fixed-top.navbar-light.bg-light
-        li.nav-item
-            a(class='nav-link active' href='#')
-                i(class="fab fa-pinterest")
-        li.nav-item(class="w-50 mt-1")
-            div(class="input-group" placeholder="search" class="text-muted")
-                div(class="input-group-prepend")
-                    span(class="input-group-text" id="inputGroup-sizing-default")
-                        i(class="fas fa-search")
-                input(type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default")
-        li.nav-item
-            a(class='nav-link active text-dark' href='#') Home
-        li.nav-item
-            a(class='nav-link' href='#' class="text-muted") Following
-        li.nav-item
-            i(class="fas fa-user-friends mt-2")
-        li.nav-item
-            i(class="fas fa-circle mt-1 ml-2")
-        li.nav-item
-            a(class='nav-link text-muted mr-2' href='#') Gabriella
-        li.nav-item
-            i(class="fas fa-comment-dots mr-3")
-        li.nav-item 
-            i(class="fas fa-bell mr-3")
-        li.nav-item
-            i(class="fas fa-ellipsis-h")
+    //- nav.navbar.navbar-expand-md.bg-dark.navbar-dark
+    //-   // Brand
+    //-   a.navbar-brand(href='#') Navbar
+    //-   // Toggler/collapsibe Button
+    //-   button.navbar-toggler(type='button', data-toggle='collapse', data-target='#collapsibleNavbar')
+    //-     span.navbar-toggler-icon
+    //-   // Navbar links
+      #collapsibleNavbar.collapse.navbar-collapse
+    //-     ul.navbar-nav
+    //-       li.nav-item
+    //-         a.nav-link(href='#') Link
+    //-       li.nav-item
+    //-         a.nav-link(href='#') Link
+    //-       li.nav-item
+    //-         a.nav-link(href='#') Link
+
+
+    ul.nav.navbar-expand-md.nav-fill.fixed-top.navbar-light.bg-light.float-right.text-right
+        button.navbar-toggler(type='button', data-toggle='collapse', data-target='#collapsibleNavbar')
+            span.navbar-toggler-icon
+        #collapsibleNavbar.collapse.navbar-collapse
+            li.nav-item
+                a(class='nav-link active' href='#')
+                    i(class="fab fa-pinterest")
+            li.nav-item(class="w-50 mt-1")
+                div(class="input-group" placeholder="search" class="text-muted")
+                    div(class="input-group-prepend")
+                        span(class="input-group-text" id="inputGroup-sizing-default")
+                            i(class="fas fa-search")
+                    input(type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default")
+            li.nav-item
+                a(class='nav-link active text-dark' href='#') Home
+            li.nav-item
+                a(class='nav-link' href='#' class="text-muted") Following
+            li.nav-item
+                i(class="fas fa-user-friends mt-2")
+            li.nav-item
+                i(class="fas fa-circle mt-1 ml-2")
+            li.nav-item
+                a(class='nav-link text-muted mr-2' href='#') Gabriella
+            li.nav-item
+                i(class="fas fa-comment-dots mr-3")
+            li.nav-item 
+                i(class="fas fa-bell mr-3")
+            li.nav-item
+                i(class="fas fa-ellipsis-h")
             
     
     section(id="gallery")

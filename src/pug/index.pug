@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+html(lang="en")
+  head
+    link(rel="stylesheet", href="../sass/style.scss")
+    link(rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous")
+    link(href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet")
+    script(src="../js/main.js")
+
+  body(class="m-2")
+    ul.nav.nav-fill.fixed-top.navbar-light.bg-light
+        li.nav-item
+            a(class='nav-link active' href='#')
+                i(class="fab fa-pinterest")
+        li.nav-item(class="w-50 mt-1")
+            div(class="input-group" placeholder="search" class="text-muted")
+                div(class="input-group-prepend")
+                    span(class="input-group-text" id="inputGroup-sizing-default")
+                        i(class="fas fa-search")
+                input(type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default")
+        li.nav-item
+            a(class='nav-link active text-dark' href='#') Home
+        li.nav-item
+            a(class='nav-link' href='#' class="text-muted") Following
+        li.nav-item
+            i(class="fas fa-user-friends mt-2")
+        li.nav-item
+            i(class="fas fa-circle mt-1 ml-2")
+        li.nav-item
+            a(class='nav-link text-muted mr-2' href='#') Gabriella
+        li.nav-item
+            i(class="fas fa-comment-dots mr-3")
+        li.nav-item 
+            i(class="fas fa-bell mr-3")
+        li.nav-item
+            i(class="fas fa-ellipsis-h")
+            
+    
+    section(id="gallery")
+            div(class="row")
+                div(class="col-lg-4")
+                    div(class="card")
+                        img(class="card-img-top" src="../imgs/bedroom.jpg")
+                        div(class="card-body")
+                            h5(class="card-title") Dream Bedroom Decor
+                div(class="col-lg-4")
+                    div(class="card")
+                        img(class="card-img-top" src="../imgs/budget.jpg")
+                        div(class="card-body")
+                            h5(class="card-title") Budget Catergories
+                div(class="col-lg-4")
+                    div(class="card")
+                        img(class="card-img-top" src="../imgs/capsule-wardrobe.jpg")
+                        div(class="card-body")
+                            h5(class="card-title") 7-Day Capsule Wardrobe
+                            
